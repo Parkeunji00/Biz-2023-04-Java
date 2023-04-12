@@ -4,7 +4,7 @@
 3. D2coding font 설치
 4. eclipse 설치 : eclipse.org
 
-## git repository 생성]
+## git repository 생성
 
 1. 새로운 컴퓨터에서 최초로 github 를 사용하고자 할때 설정
 ```bash
