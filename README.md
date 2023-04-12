@@ -20,17 +20,9 @@ git init
 ### 기존의 repository 에 계속해서 update 하고자 할때
 
 
-5. 현재 폴더의 파이로가 폴더를 local Ropository 에 압축하고, 암호화하여 보관하기 : `git add . `
+5. 현재 폴더의 파일과 폴더를 local Ropository 에 압축하고, 암호화하여 보관하기 : `git add . `
 6. 현재 local Repository 에 보관된 압축된 데이터에 대한 Comment 를 추가하기 : `git commit -m first`
 7. local Repository 에 보관된 압축된 데이터를 원격 Repository 로 `git push -u origin master`
-
-```bash
-git init
-git config --global user.name  Parkeunji00
-git config --global user.email ebeg5661@naver.com
-
-
-
 
 ```bash
 git init
@@ -39,4 +31,3 @@ git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/Parkeunji00/Biz-2023-04-java.git
 git push -u origin master
-```
